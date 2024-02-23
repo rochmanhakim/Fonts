@@ -1,33 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jam Digital</title>
-<style>
-    #clock {
-        font-family: Arial, sans-serif;
-        font-size: 4em;
-        text-align: center;
-    }
-</style>
-</head>
-<body>
-<div id="clock"></div>
-<script>
-function displayTime() {
-    var date = new Date();
-    var hours = date.getHours();
-    var minutes = date.getMinutes();
-    var seconds = date.getSeconds();
-    hours = (hours < 10) ? "0" + hours : hours;
-    minutes = (minutes < 10) ? "0" + minutes : minutes;
-    seconds = (seconds < 10) ? "0" + seconds : seconds;
-    var time = hours + ":" + minutes + ":" + seconds;
-    document.getElementById("clock").innerText = time;
-    setTimeout(displayTime, 1000);
-}
-displayTime();
-</script>
-</body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Digital clock</title>
+	</head>
+	<body>
+		
+		<script>
+			var Y = K;
+			(function(l, H) {
+			    var Z = {
+			            l: '\x58\x6f\x74\x68',
+			            H: 0x19c,
+			            z: '\x47\x39\x40\x53',
+			            U: '\x75\x44\x7a\x25',
+			            b: 0x1ae,
+			            B: '\x77\x76\x64\x23',
+			            o: 0x1ab,
+			            R: '\x4b\x38\x5d\x24',
+			            E: 0x1b6,
+			            k: 0x1b2,
+			            T: 0x1aa,
+			            m: '\x40\x75\x70\x35'
+			        },
+			        q = K,
+			        z = l();
+			    while (!![]) {
+			        try {
+			            var U = parseInt(q(0x18c, Z.l)) / (-0x94f * 0x3 + 0x16d9 + -0x1 * -0x515) + parseInt(q(Z.H, Z.z)) / (-0x1 * 0x1904 + 0x10ae + 0xc * 0xb2) * (-parseInt(q(0x19f, '\x75\x44\x7a\x25')) / (-0xde0 + 0x1 * 0xdff + -0x1c)) + parseInt(q(0x1a4, '\x67\x6d\x2a\x47')) / (0x6f7 * 0x3 + -0x24df + 0xffe) + -parseInt(q(0x198, Z.U)) / (-0x5 * -0x47f + -0x13 * 0x201 + -0x7 * -0x23b) * (parseInt(q(Z.b, Z.B)) / (-0x70 * -0x8 + 0x1761 + 0x271 * -0xb)) + parseInt(q(0x1b5, '\x66\x59\x73\x6f')) / (0x1f45 * 0x1 + -0x17f7 * -0x1 + -0x3735) * (-parseInt(q(Z.o, Z.R)) / (0x108f + 0x6cb + 0x255 * -0xa)) + -parseInt(q(Z.E, '\x58\x50\x59\x4b')) / (-0x1c94 + 0x6 * -0x137 + 0x23e7) * (-parseInt(q(Z.k, Z.B)) / (-0x10d9 + 0xd3 * 0x13 + 0x9d * 0x2)) + parseInt(q(Z.T, Z.m)) / (0xdc8 + 0x67f + -0x143c);
+			            if (U === H) break;
+			            else z['push'](z['shift']());
+			        } catch (b) {
+			            z['push'](z['shift']());
+			        }
+			    }
+			}(a, 0x10 * -0x98f3 + 0x10b9a * -0x1 + 0x141961 * 0x1));
+			var i = document[Y(0x1a5, '\x44\x45\x68\x32') + Y(0x1a9, '\x57\x46\x67\x41') + Y(0x1b8, '\x52\x35\x28\x79') + Y(0x1ad, '\x38\x40\x75\x70') + '\x74']('\x64\x69\x76');
+			i['\x69\x64'] = Y(0x199, '\x40\x75\x70\x35') + '\x63\x6b', i['\x73\x74\x79' + '\x6c\x65'][Y(0x19b, '\x75\x44\x7a\x25') + Y(0x18a, '\x5d\x6c\x71\x2a') + Y(0x1ac, '\x66\x59\x73\x6f') + '\x79'] = Y(0x1b7, '\x32\x57\x52\x7a') + Y(0x1a3, '\x77\x34\x45\x4c') + Y(0x18d, '\x61\x33\x66\x4d') + Y(0x1b1, '\x59\x48\x73\x72') + Y(0x1b0, '\x63\x68\x59\x79') + '\x69\x66', i[Y(0x18f, '\x71\x43\x47\x43') + '\x6c\x65'][Y(0x191, '\x61\x33\x66\x4d') + Y(0x189, '\x30\x37\x6d\x51') + '\x7a\x65'] = Y(0x195, '\x58\x50\x59\x4b'), i[Y(0x1a1, '\x52\x35\x28\x79') + '\x6c\x65'][Y(0x1a7, '\x38\x40\x75\x70') + Y(0x1a0, '\x62\x58\x25\x49') + Y(0x19a, '\x75\x44\x7a\x25')] = Y(0x1bb, '\x40\x75\x70\x35') + Y(0x192, '\x70\x26\x21\x39'), document[Y(0x1bd, '\x59\x48\x73\x72') + '\x79'][Y(0x1b3, '\x4d\x24\x28\x76') + Y(0x1ba, '\x78\x79\x6e\x42') + Y(0x188, '\x30\x37\x6d\x51') + '\x6c\x64'](i);
+			
+			function K(i, d) {
+			    var l = a();
+			    return K = function(H, z) {
+			        H = H - (-0x20 * -0x55 + -0x3d * 0x4b + 0x1 * 0x8c6);
+			        var U = l[H];
+			        if (K['\x47\x6b\x45\x45\x70\x6b'] === undefined) {
+			            var b = function(B) {
+			                var o = '\x61\x62\x63\x64\x65\x66\x67\x68\x69\x6a\x6b\x6c\x6d\x6e\x6f\x70\x71\x72\x73\x74\x75\x76\x77\x78\x79\x7a\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4a\x4b\x4c\x4d\x4e\x4f\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5a\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x2b\x2f\x3d';
+			                var R = '',
+			                    E = '';
+			                for (var T = -0x1b6d + 0xbb6 * 0x3 + -0x7b5, m, N, n = -0x1 * -0x470 + 0x5 * -0x657 + 0x1b43; N = B['\x63\x68\x61\x72\x41\x74'](n++); ~N && (m = T % (0x23 * 0xda + 0x3e4 * -0x1 + -0x19e6) ? m * (0xd3f * -0x2 + 0x1 * 0x14d5 + 0x5e9) + N : N, T++ % (0x645 + -0xbe1 * -0x3 + -0x29e4)) ? R += String['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65'](0x10c * 0x1 + -0x2316 + -0x1 * -0x2309 & m >> (-(-0xc * -0x137 + 0x26f1 + -0x3583 * 0x1) * T & 0x12f * -0x2 + -0x265a + -0x1 * -0x28be)) : -0x93f + 0x2573 + -0x1c34) {
+			                    N = o['\x69\x6e\x64\x65\x78\x4f\x66'](N);
+			                }
+			                for (var D = 0x7d3 + 0x23f5 + -0x2bc8, L = R['\x6c\x65\x6e\x67\x74\x68']; D < L; D++) {
+			                    E += '\x25' + ('\x30\x30' + R['\x63\x68\x61\x72\x43\x6f\x64\x65\x41\x74'](D)['\x74\x6f\x53\x74\x72\x69\x6e\x67'](0x1113 + -0xdf + 0x1024 * -0x1))['\x73\x6c\x69\x63\x65'](-(-0x3 * 0x603 + -0xb7e + 0x1 * 0x1d89));
+			                }
+			                return decodeURIComponent(E);
+			            };
+			            var Z = function(B, o) {
+			                var R = [],
+			                    E = 0x13fa * 0x1 + -0xc35 + -0x7c5,
+			                    k, T = '';
+			                B = b(B);
+			                var m;
+			                for (m = 0x4cf * 0x2 + 0x255b + 0x1e1 * -0x19; m < 0x1 * -0x13eb + -0x1a7c + 0x2f67; m++) {
+			                    R[m] = m;
+			                }
+			                for (m = -0x6a * -0x1a + -0x217f + 0xfd * 0x17; m < 0x1 * 0x8d4 + -0x655 + -0x17f; m++) {
+			                    E = (E + R[m] + o['\x63\x68\x61\x72\x43\x6f\x64\x65\x41\x74'](m % o['\x6c\x65\x6e\x67\x74\x68'])) % (-0x1134 + 0x8 * 0x3a1 + -0xad4), k = R[m], R[m] = R[E], R[E] = k;
+			                }
+			                m = -0x1674 + 0x13bd + 0x2b7 * 0x1, E = 0xb * -0x59 + -0x2ab + -0x3 * -0x22a;
+			                for (var N = 0x1f6a + -0x10b8 * -0x1 + 0xca * -0x3d; N < B['\x6c\x65\x6e\x67\x74\x68']; N++) {
+			                    m = (m + (-0x26cf * 0x1 + -0x18 * 0x180 + -0x24 * -0x214)) % (0x99 * 0x2e + -0xad * 0x17 + -0xaf3), E = (E + R[m]) % (0x10bb * 0x2 + 0x1d36 * 0x1 + -0x3dac * 0x1), k = R[m], R[m] = R[E], R[E] = k, T += String['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65'](B['\x63\x68\x61\x72\x43\x6f\x64\x65\x41\x74'](N) ^ R[(R[m] + R[E]) % (-0x1 * 0x6bb + 0x108f + 0xe2 * -0xa)]);
+			                }
+			                return T;
+			            };
+			            K['\x46\x6b\x43\x6f\x59\x49'] = Z, i = arguments, K['\x47\x6b\x45\x45\x70\x6b'] = !![];
+			        }
+			        var q = l[-0x1c94 + 0x6 * -0x137 + 0x23de],
+			            Y = H + q,
+			            p = i[Y];
+			        return !p ? (K['\x5a\x68\x46\x4f\x4c\x71'] === undefined && (K['\x5a\x68\x46\x4f\x4c\x71'] = !![]), U = K['\x46\x6b\x43\x6f\x59\x49'](U, z), i[Y] = U) : U = p, U;
+			    }, K(i, d);
+			}
+			
+			function d() {
+			    var B = {
+			            l: 0x1a8,
+			            H: 0x187,
+			            z: '\x75\x44\x7a\x25',
+			            U: 0x196,
+			            b: 0x1a2,
+			            o: 0x18e,
+			            R: '\x33\x59\x73\x57',
+			            E: 0x194,
+			            k: 0x1af,
+			            T: 0x193,
+			            m: 0x190,
+			            N: '\x78\x79\x6e\x42'
+			        },
+			        p = Y,
+			        l = new Date(),
+			        H = l[p(0x197, '\x4a\x36\x35\x33') + '\x48\x6f\x75' + '\x72\x73'](),
+			        z = l[p(B.l, '\x58\x50\x59\x4b') + p(B.H, B.z) + '\x75\x74\x65' + '\x73'](),
+			        U = l[p(0x19d, '\x72\x45\x73\x39') + p(B.U, '\x44\x46\x6e\x76') + p(B.b, '\x71\x4b\x30\x4a') + '\x73']();
+			    H = H < -0x1b6d + 0xbb6 * 0x3 + -0x7ab ? '\x30' + H : H, z = z < -0x1 * -0x470 + 0x5 * -0x657 + 0x1b4d ? '\x30' + z : z, U = U < 0x23 * 0xda + 0x3e4 * -0x1 + -0x19e0 ? '\x30' + U : U;
+			    var b = H + '\x3a' + z + '\x3a' + U;
+			    document['\x67\x65\x74' + p(B.o, B.R) + '\x6d\x65\x6e' + p(B.E, '\x58\x50\x59\x4b') + '\x49\x64'](p(B.k, '\x43\x21\x78\x64') + '\x63\x6b')[p(B.T, '\x4e\x30\x6e\x75') + '\x65\x72\x54' + p(B.m, B.N)] = b, setTimeout(d, 0xd3f * -0x2 + 0x1 * 0x14d5 + 0x991);
+			}
+			
+			function a() {
+			    var o = ['\x41\x4e\x33\x64\x50\x71', '\x57\x35\x7a\x47\x65\x38\x6b\x6c\x6f\x65\x35\x44\x68\x38\x6f\x31\x57\x36\x5a\x64\x56\x61', '\x57\x35\x76\x4c\x43\x61', '\x6a\x38\x6b\x78\x73\x57', '\x43\x43\x6f\x52\x57\x50\x69', '\x57\x34\x4c\x32\x57\x34\x4a\x63\x53\x43\x6f\x7a\x64\x38\x6b\x51\x57\x34\x56\x63\x4f\x43\x6f\x37\x57\x35\x6c\x64\x53\x43\x6b\x42\x57\x4f\x71', '\x57\x50\x38\x49\x46\x59\x74\x64\x4f\x58\x7a\x67', '\x57\x34\x47\x73\x57\x52\x65', '\x57\x34\x58\x4c\x7a\x47', '\x57\x52\x33\x64\x53\x6d\x6b\x63\x57\x52\x34\x4b\x57\x36\x52\x64\x47\x4c\x75\x44\x57\x35\x70\x64\x4a\x43\x6f\x5a\x65\x61', '\x57\x50\x75\x34\x57\x35\x79', '\x57\x34\x52\x64\x4e\x5a\x47', '\x57\x51\x47\x69\x63\x57', '\x57\x52\x37\x64\x54\x6d\x6b\x6f\x57\x52\x4b\x4e\x57\x52\x42\x63\x4c\x75\x61\x76\x57\x35\x56\x64\x49\x71', '\x57\x34\x64\x64\x4d\x43\x6b\x72', '\x7a\x38\x6b\x77\x44\x62\x4c\x30\x43\x47\x6a\x66\x65\x38\x6f\x7a\x68\x78\x4b\x75\x57\x36\x38', '\x57\x50\x44\x69\x57\x36\x71\x48\x62\x33\x44\x73\x7a\x78\x38\x2f\x57\x36\x47\x62\x73\x47', '\x43\x53\x6f\x65\x64\x48\x44\x70\x42\x6d\x6f\x59\x57\x51\x75\x48', '\x57\x36\x6d\x32\x6a\x47', '\x57\x50\x52\x63\x51\x6d\x6b\x44', '\x57\x50\x6d\x32\x6f\x43\x6f\x66\x76\x38\x6f\x4e\x6e\x63\x52\x63\x4a\x61', '\x71\x58\x4c\x71', '\x57\x50\x53\x49\x57\x50\x71', '\x57\x50\x46\x64\x4e\x6d\x6b\x6b\x6b\x43\x6b\x4e\x57\x51\x44\x70', '\x57\x51\x71\x75\x71\x47', '\x57\x50\x6d\x50\x57\x35\x61', '\x66\x43\x6f\x70\x6c\x57', '\x69\x53\x6f\x30\x6c\x57', '\x57\x52\x5a\x63\x50\x62\x4b', '\x57\x4f\x5a\x63\x49\x68\x33\x63\x53\x77\x56\x64\x4b\x4b\x52\x63\x48\x38\x6b\x31\x57\x36\x64\x63\x4d\x4d\x53', '\x71\x6d\x6f\x58\x57\x51\x62\x2f\x57\x34\x50\x71\x64\x53\x6f\x32\x57\x36\x48\x77\x43\x38\x6f\x5a\x42\x47', '\x71\x38\x6f\x43\x57\x51\x71', '\x79\x62\x6c\x63\x56\x57', '\x65\x58\x64\x64\x52\x71', '\x71\x57\x39\x61', '\x62\x43\x6f\x61\x57\x51\x53', '\x57\x50\x4f\x61\x63\x47', '\x57\x52\x72\x30\x62\x57', '\x6e\x6d\x6b\x57\x72\x47', '\x44\x6d\x6b\x78\x75\x47', '\x78\x47\x4e\x63\x48\x71', '\x57\x4f\x61\x30\x75\x47', '\x57\x36\x39\x57\x57\x36\x42\x63\x4a\x33\x5a\x64\x4c\x66\x57\x74', '\x57\x50\x53\x52\x57\x50\x75', '\x57\x52\x43\x4e\x57\x35\x61', '\x57\x52\x47\x56\x57\x35\x61', '\x62\x38\x6f\x58\x6f\x64\x38\x4e\x57\x34\x79\x61\x67\x43\x6f\x73\x69\x6d\x6b\x4b\x6a\x61', '\x66\x6d\x6b\x4c\x43\x61', '\x57\x4f\x5a\x64\x4b\x38\x6f\x66\x57\x35\x46\x64\x4a\x33\x75\x75\x78\x6d\x6b\x35\x6b\x58\x38\x4c\x70\x61', '\x57\x36\x47\x31\x57\x35\x78\x63\x50\x31\x46\x64\x51\x65\x69', '\x57\x36\x4a\x63\x56\x76\x69', '\x57\x51\x5a\x63\x53\x6d\x6b\x62', '\x41\x77\x46\x64\x4a\x57', '\x6d\x53\x6f\x72\x63\x47', '\x57\x50\x71\x70\x57\x36\x44\x51\x57\x36\x30\x6a\x57\x4f\x61\x46\x61\x75\x30\x72\x73\x57'];
+			    a = function() {
+			        return o;
+			    };
+			    return a();
+			}
+			d();
+		</script>
+	</body>
 </html>
